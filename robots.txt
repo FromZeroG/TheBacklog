@@ -1,6 +1,4 @@
 User-agent: *
 Allow: /
 
-# Once the site is live on its real domain, uncomment the line below
-# and replace the domain with the actual one:
-# Sitemap: https://YOURDOMAIN.com/sitemap.xml
+Sitemap: https://thebacklog.online/sitemap.xml

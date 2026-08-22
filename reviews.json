@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Sephiria",
+    "slug": "sephiria",
+    "score": 117,
+    "tier": "Exceeded Expectations",
+    "tone": "over",
+    "platform": "PC",
+    "genre": "Action Roguelite"
+  },
+  {
+    "title": "Megaloot",
+    "slug": "megaloot",
+    "score": 66,
+    "tier": "Mixed Bag",
+    "tone": "mid",
+    "platform": "PC",
+    "genre": "Roguelike RPG"
+  },
+  {
+    "title": "Nightingale",
+    "slug": "nightingale",
+    "score": 51,
+    "tier": "Whiffed It",
+    "tone": "low",
+    "platform": "PC",
+    "genre": "Survival Crafting"
+  },
+  {
+    "title": "The Bloodline",
+    "slug": "bloodline",
+    "score": 65,
+    "tier": "Mixed Bag",
+    "tone": "mid",
+    "platform": "PC",
+    "genre": "Action RPG / Open-World"
+  },
+  {
+    "title": "Bloodstained: Ritual of the Night",
+    "slug": "bloodstained",
+    "score": 87,
+    "tier": "Delivered",
+    "tone": "high",
+    "platform": "PC",
+    "genre": "Metroidvania"
+  },
+  {
+    "title": "Call of Juarez: Gunslinger",
+    "slug": "gunslinger",
+    "score": 91,
+    "tier": "Delivered",
+    "tone": "high",
+    "platform": "PC",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "title": "Palworld",
+    "slug": "palworld",
+    "score": 104,
+    "tier": "Delivered",
+    "tone": "high",
+    "platform": "PC",
+    "genre": "Survival Crafting"
+  },
+  {
+    "title": "Deathloop",
+    "slug": "deathloop",
+    "score": 70,
+    "tier": "Mixed Bag",
+    "tone": "mid",
+    "platform": "PC",
+    "genre": "Immersive Sim FPS"
+  }
+]
