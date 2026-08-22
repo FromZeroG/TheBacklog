@@ -191,3 +191,50 @@
       }
     });
   })();
+
+  // ---------------- cookie consent (Google Consent Mode) ----------------
+  (function(){
+    "use strict";
+
+    var STORAGE_KEY = "backlog_consent";
+
+    var applyConsent = function(status){
+      if (typeof gtag !== "function") return;
+      gtag("consent", "update", { analytics_storage: status });
+    };
+
+    var saved = null;
+    try { saved = localStorage.getItem(STORAGE_KEY); } catch (e) { saved = null; }
+
+    // Returning visitor who already chose: just replay their choice to gtag, no banner.
+    if (saved === "granted" || saved === "denied"){
+      applyConsent(saved);
+      return;
+    }
+
+    var banner = document.createElement("div");
+    banner.className = "consent-banner";
+    banner.id = "consentBanner";
+    banner.setAttribute("role", "dialog");
+    banner.setAttribute("aria-label", "Cookie consent");
+    banner.innerHTML =
+      '<div class="consent-banner-inner">' +
+        '<p>This site uses Google Analytics to see which reviews people actually read. No tracking cookies get set until you say it&rsquo;s fine, and you can change your mind any time by clearing your browser data.</p>' +
+        '<div class="consent-actions">' +
+          '<button class="btn btn-ghost" type="button" id="consentDecline">Decline</button>' +
+          '<button class="btn btn-primary" type="button" id="consentAccept">Accept</button>' +
+        '</div>' +
+      '</div>';
+
+    document.body.appendChild(banner);
+
+    var dismiss = function(status){
+      try { localStorage.setItem(STORAGE_KEY, status); } catch (e) {}
+      applyConsent(status);
+      banner.classList.add("is-hidden");
+      window.setTimeout(function(){ if (banner.parentNode) banner.parentNode.removeChild(banner); }, 300);
+    };
+
+    document.getElementById("consentAccept").addEventListener("click", function(){ dismiss("granted"); });
+    document.getElementById("consentDecline").addEventListener("click", function(){ dismiss("denied"); });
+  })();

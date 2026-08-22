@@ -864,3 +864,55 @@
     color: var(--accent);
   }
   .review-nav a:hover{ text-decoration: underline; }
+
+  /* ---------------- cookie consent ---------------- */
+
+  .consent-banner{
+    position: fixed;
+    left: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    z-index: 500;
+    background: var(--bg-raised);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    box-shadow: 0 12px 32px rgba(0,0,0,0.45);
+    opacity: 1;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  .consent-banner.is-hidden{
+    opacity: 0;
+    transform: translateY(8px);
+    pointer-events: none;
+  }
+  .consent-banner-inner{
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 1.1rem 1.4rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem 1.5rem;
+  }
+  .consent-banner-inner p{
+    margin: 0;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    color: var(--ink-dim);
+    flex: 1 1 320px;
+  }
+  .consent-actions{
+    display: flex;
+    gap: 0.6rem;
+    flex-shrink: 0;
+  }
+  .consent-actions .btn{
+    padding: 0.6rem 1.1rem;
+    font-size: 0.75rem;
+  }
+  @media (max-width: 560px){
+    .consent-banner{ left: 0.5rem; right: 0.5rem; bottom: 0.5rem; }
+    .consent-banner-inner{ flex-direction: column; align-items: stretch; }
+    .consent-actions{ justify-content: flex-end; }
+  }
