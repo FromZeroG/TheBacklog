@@ -151,5 +151,32 @@
     "tone": "low",
     "platform": "PC",
     "genre": "Tactical RPG"
+  },
+  {
+    "title": "Car Dealer Simulator",
+    "slug": "cardealersimulator",
+    "score": 86,
+    "tier": "Delivered",
+    "tone": "high",
+    "platform": "PC",
+    "genre": "Business Simulation"
+  },
+  {
+    "title": "BRINK",
+    "slug": "brink",
+    "score": 64,
+    "tier": "Mixed Bag",
+    "tone": "mid",
+    "platform": "PC",
+    "genre": "Class-Based FPS"
+  },
+  {
+    "title": "Megabonk",
+    "slug": "megabonk",
+    "score": 102,
+    "tier": "Delivered",
+    "tone": "high",
+    "platform": "PC",
+    "genre": "3D Bullet Heaven / Roguelike"
   }
 ]
