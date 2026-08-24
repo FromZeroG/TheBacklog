@@ -97,5 +97,32 @@
     "tone": "high",
     "platform": "PC",
     "genre": "Roguelite / Colony Sim"
+  },
+  {
+    "title": "Farthest Frontier",
+    "slug": "farthestfrontier",
+    "score": 88,
+    "tier": "Delivered",
+    "tone": "high",
+    "platform": "PC",
+    "genre": "City Builder / Survival"
+  },
+  {
+    "title": "Gunfire Reborn",
+    "slug": "gunfirereborn",
+    "score": 93,
+    "tier": "Delivered",
+    "tone": "high",
+    "platform": "PC",
+    "genre": "Roguelite FPS"
+  },
+  {
+    "title": "Hell Clock",
+    "slug": "hellclock",
+    "score": 87,
+    "tier": "Delivered",
+    "tone": "high",
+    "platform": "PC",
+    "genre": "Action RPG / Roguelike"
   }
 ]
