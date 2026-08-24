@@ -124,5 +124,32 @@
     "tone": "high",
     "platform": "PC",
     "genre": "Action RPG / Roguelike"
+  },
+  {
+    "title": "Heretic's Fork",
+    "slug": "hereticsfork",
+    "score": 85,
+    "tier": "Delivered",
+    "tone": "high",
+    "platform": "PC",
+    "genre": "Deckbuilder / Tower Defense"
+  },
+  {
+    "title": "Hot Lava",
+    "slug": "hotlava",
+    "score": 87,
+    "tier": "Delivered",
+    "tone": "high",
+    "platform": "PC",
+    "genre": "3D Platformer / Parkour"
+  },
+  {
+    "title": "Blackguards",
+    "slug": "blackguards",
+    "score": 55,
+    "tier": "Whiffed It",
+    "tone": "low",
+    "platform": "PC",
+    "genre": "Tactical RPG"
   }
 ]
