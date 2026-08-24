@@ -70,5 +70,32 @@
     "tone": "mid",
     "platform": "PC",
     "genre": "Immersive Sim FPS"
+  },
+  {
+    "title": "Death Must Die",
+    "slug": "deathmustdie",
+    "score": 89,
+    "tier": "Delivered",
+    "tone": "high",
+    "platform": "PC",
+    "genre": "Action Roguelite"
+  },
+  {
+    "title": "God of Weapons",
+    "slug": "godofweapons",
+    "score": 85,
+    "tier": "Delivered",
+    "tone": "high",
+    "platform": "PC",
+    "genre": "Roguelite Shooter"
+  },
+  {
+    "title": "Cult of the Lamb",
+    "slug": "cultofthelamb",
+    "score": 107,
+    "tier": "Delivered",
+    "tone": "high",
+    "platform": "PC",
+    "genre": "Roguelite / Colony Sim"
   }
 ]
