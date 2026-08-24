@@ -178,5 +178,50 @@
     "tone": "high",
     "platform": "PC",
     "genre": "3D Bullet Heaven / Roguelike"
+  },
+  {
+    "title": "Saleblazers",
+    "slug": "saleblazers",
+    "score": 52,
+    "tier": "Whiffed It",
+    "tone": "low",
+    "platform": "PC",
+    "genre": "Open-World Survival Shopkeeping"
+  },
+  {
+    "title": "Ruinarch",
+    "slug": "ruinarch",
+    "score": 63,
+    "tier": "Mixed Bag",
+    "tone": "mid",
+    "platform": "PC",
+    "genre": "God Game / Colony Sim"
+  },
+  {
+    "title": "Panorama",
+    "slug": "panorama",
+    "score": 87,
+    "tier": "Delivered",
+    "tone": "high",
+    "platform": "PC",
+    "genre": "Puzzle City Builder"
+  },
+  {
+    "title": "SNKRX",
+    "slug": "snkrx",
+    "score": 97,
+    "tier": "Delivered",
+    "tone": "high",
+    "platform": "PC",
+    "genre": "Auto-Battler Roguelite"
+  },
+  {
+    "title": "Spellbook Demonslayers",
+    "slug": "spellbookdemonslayers",
+    "score": 68,
+    "tier": "Mixed Bag",
+    "tone": "mid",
+    "platform": "PC",
+    "genre": "Bullet Heaven Roguelite"
   }
 ]
