@@ -14,8 +14,8 @@
       onScroll();
     }
 
-    // active nav link tracking by section in view
-    var sections = ["shelf", "scoring", "about"].map(function(id){
+    // active nav link tracking by section in view (Games now lives on its own page)
+    var sections = ["scoring", "about"].map(function(id){
       return document.getElementById(id);
     });
     var links = Array.prototype.slice.call(document.querySelectorAll(".site-nav a"));
@@ -237,4 +237,43 @@
 
     document.getElementById("consentAccept").addEventListener("click", function(){ dismiss("granted"); });
     document.getElementById("consentDecline").addEventListener("click", function(){ dismiss("denied"); });
+  })();
+
+  // ---------------- share: copy link ----------------
+  (function(){
+    "use strict";
+
+    var buttons = document.querySelectorAll("[data-copy-link]");
+    if (!buttons.length) return;
+
+    buttons.forEach(function(btn){
+      var label = btn.querySelector(".share-label");
+      var defaultText = label ? label.textContent : "";
+
+      btn.addEventListener("click", function(){
+        var url = btn.getAttribute("data-copy-link") || window.location.href;
+
+        var showCopied = function(){
+          btn.classList.add("is-copied");
+          if (label) label.textContent = "Copied";
+          window.setTimeout(function(){
+            btn.classList.remove("is-copied");
+            if (label) label.textContent = defaultText;
+          }, 1800);
+        };
+
+        if (navigator.clipboard && navigator.clipboard.writeText){
+          navigator.clipboard.writeText(url).then(showCopied).catch(function(){});
+        } else {
+          var tmp = document.createElement("textarea");
+          tmp.value = url;
+          tmp.style.position = "fixed";
+          tmp.style.opacity = "0";
+          document.body.appendChild(tmp);
+          tmp.select();
+          try { document.execCommand("copy"); showCopied(); } catch (e) {}
+          document.body.removeChild(tmp);
+        }
+      });
+    });
   })();
