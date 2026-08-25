@@ -223,5 +223,32 @@
     "tone": "mid",
     "platform": "PC",
     "genre": "Bullet Heaven Roguelite"
+  },
+  {
+    "title": "100% Orange Juice",
+    "slug": "100orangejuice",
+    "score": 91,
+    "tier": "Delivered",
+    "tone": "high",
+    "platform": "PC",
+    "genre": "Board Game / Card Battler"
+  },
+  {
+    "title": "20 Minutes Till Dawn",
+    "slug": "20minutestilldawn",
+    "score": 82,
+    "tier": "Mixed Bag",
+    "tone": "mid",
+    "platform": "PC",
+    "genre": "Bullet Heaven Roguelike"
+  },
+  {
+    "title": "About Love, Hate and the other ones",
+    "slug": "aboutlovehate",
+    "score": 88,
+    "tier": "Delivered",
+    "tone": "high",
+    "platform": "PC",
+    "genre": "Sokoban Puzzle"
   }
 ]
