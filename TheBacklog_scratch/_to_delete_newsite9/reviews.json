@@ -1,0 +1,254 @@
+[
+  {
+    "title": "Sephiria",
+    "slug": "sephiria",
+    "score": 117,
+    "tier": "Exceeded Expectations",
+    "tone": "over",
+    "platform": "PC",
+    "genre": "Action Roguelite"
+  },
+  {
+    "title": "Megaloot",
+    "slug": "megaloot",
+    "score": 66,
+    "tier": "Mixed Bag",
+    "tone": "mid",
+    "platform": "PC",
+    "genre": "Roguelike RPG"
+  },
+  {
+    "title": "Nightingale",
+    "slug": "nightingale",
+    "score": 51,
+    "tier": "Whiffed It",
+    "tone": "low",
+    "platform": "PC",
+    "genre": "Survival Crafting"
+  },
+  {
+    "title": "The Bloodline",
+    "slug": "bloodline",
+    "score": 65,
+    "tier": "Mixed Bag",
+    "tone": "mid",
+    "platform": "PC",
+    "genre": "Action RPG / Open-World"
+  },
+  {
+    "title": "Bloodstained: Ritual of the Night",
+    "slug": "bloodstained",
+    "score": 87,
+    "tier": "Delivered",
+    "tone": "high",
+    "platform": "PC",
+    "genre": "Metroidvania"
+  },
+  {
+    "title": "Call of Juarez: Gunslinger",
+    "slug": "gunslinger",
+    "score": 91,
+    "tier": "Delivered",
+    "tone": "high",
+    "platform": "PC",
+    "genre": "First-Person Shooter"
+  },
+  {
+    "title": "Palworld",
+    "slug": "palworld",
+    "score": 104,
+    "tier": "Delivered",
+    "tone": "high",
+    "platform": "PC",
+    "genre": "Survival Crafting"
+  },
+  {
+    "title": "Deathloop",
+    "slug": "deathloop",
+    "score": 70,
+    "tier": "Mixed Bag",
+    "tone": "mid",
+    "platform": "PC",
+    "genre": "Immersive Sim FPS"
+  },
+  {
+    "title": "Death Must Die",
+    "slug": "deathmustdie",
+    "score": 89,
+    "tier": "Delivered",
+    "tone": "high",
+    "platform": "PC",
+    "genre": "Action Roguelite"
+  },
+  {
+    "title": "God of Weapons",
+    "slug": "godofweapons",
+    "score": 85,
+    "tier": "Delivered",
+    "tone": "high",
+    "platform": "PC",
+    "genre": "Roguelite Shooter"
+  },
+  {
+    "title": "Cult of the Lamb",
+    "slug": "cultofthelamb",
+    "score": 107,
+    "tier": "Delivered",
+    "tone": "high",
+    "platform": "PC",
+    "genre": "Roguelite / Colony Sim"
+  },
+  {
+    "title": "Farthest Frontier",
+    "slug": "farthestfrontier",
+    "score": 88,
+    "tier": "Delivered",
+    "tone": "high",
+    "platform": "PC",
+    "genre": "City Builder / Survival"
+  },
+  {
+    "title": "Gunfire Reborn",
+    "slug": "gunfirereborn",
+    "score": 93,
+    "tier": "Delivered",
+    "tone": "high",
+    "platform": "PC",
+    "genre": "Roguelite FPS"
+  },
+  {
+    "title": "Hell Clock",
+    "slug": "hellclock",
+    "score": 87,
+    "tier": "Delivered",
+    "tone": "high",
+    "platform": "PC",
+    "genre": "Action RPG / Roguelike"
+  },
+  {
+    "title": "Heretic's Fork",
+    "slug": "hereticsfork",
+    "score": 85,
+    "tier": "Delivered",
+    "tone": "high",
+    "platform": "PC",
+    "genre": "Deckbuilder / Tower Defense"
+  },
+  {
+    "title": "Hot Lava",
+    "slug": "hotlava",
+    "score": 87,
+    "tier": "Delivered",
+    "tone": "high",
+    "platform": "PC",
+    "genre": "3D Platformer / Parkour"
+  },
+  {
+    "title": "Blackguards",
+    "slug": "blackguards",
+    "score": 55,
+    "tier": "Whiffed It",
+    "tone": "low",
+    "platform": "PC",
+    "genre": "Tactical RPG"
+  },
+  {
+    "title": "Car Dealer Simulator",
+    "slug": "cardealersimulator",
+    "score": 86,
+    "tier": "Delivered",
+    "tone": "high",
+    "platform": "PC",
+    "genre": "Business Simulation"
+  },
+  {
+    "title": "BRINK",
+    "slug": "brink",
+    "score": 64,
+    "tier": "Mixed Bag",
+    "tone": "mid",
+    "platform": "PC",
+    "genre": "Class-Based FPS"
+  },
+  {
+    "title": "Megabonk",
+    "slug": "megabonk",
+    "score": 102,
+    "tier": "Delivered",
+    "tone": "high",
+    "platform": "PC",
+    "genre": "3D Bullet Heaven / Roguelike"
+  },
+  {
+    "title": "Saleblazers",
+    "slug": "saleblazers",
+    "score": 52,
+    "tier": "Whiffed It",
+    "tone": "low",
+    "platform": "PC",
+    "genre": "Open-World Survival Shopkeeping"
+  },
+  {
+    "title": "Ruinarch",
+    "slug": "ruinarch",
+    "score": 63,
+    "tier": "Mixed Bag",
+    "tone": "mid",
+    "platform": "PC",
+    "genre": "God Game / Colony Sim"
+  },
+  {
+    "title": "Panorama",
+    "slug": "panorama",
+    "score": 87,
+    "tier": "Delivered",
+    "tone": "high",
+    "platform": "PC",
+    "genre": "Puzzle City Builder"
+  },
+  {
+    "title": "SNKRX",
+    "slug": "snkrx",
+    "score": 97,
+    "tier": "Delivered",
+    "tone": "high",
+    "platform": "PC",
+    "genre": "Auto-Battler Roguelite"
+  },
+  {
+    "title": "Spellbook Demonslayers",
+    "slug": "spellbookdemonslayers",
+    "score": 68,
+    "tier": "Mixed Bag",
+    "tone": "mid",
+    "platform": "PC",
+    "genre": "Bullet Heaven Roguelite"
+  },
+  {
+    "title": "100% Orange Juice",
+    "slug": "100orangejuice",
+    "score": 91,
+    "tier": "Delivered",
+    "tone": "high",
+    "platform": "PC",
+    "genre": "Board Game / Card Battler"
+  },
+  {
+    "title": "20 Minutes Till Dawn",
+    "slug": "20minutestilldawn",
+    "score": 82,
+    "tier": "Mixed Bag",
+    "tone": "mid",
+    "platform": "PC",
+    "genre": "Bullet Heaven Roguelike"
+  },
+  {
+    "title": "About Love, Hate and the other ones",
+    "slug": "aboutlovehate",
+    "score": 88,
+    "tier": "Delivered",
+    "tone": "high",
+    "platform": "PC",
+    "genre": "Sokoban Puzzle"
+  }
+]
