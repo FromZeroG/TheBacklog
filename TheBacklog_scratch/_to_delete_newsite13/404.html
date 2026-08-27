@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', {
+      'ad_storage': 'denied',
+      'ad_user_data': 'denied',
+      'ad_personalization': 'denied',
+      'analytics_storage': 'denied',
+      'wait_for_update': 500
+    });
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SMFC5M35N3"></script>
+  <script>
+    gtag('js', new Date());
+    gtag('config', 'G-SMFC5M35N3');
+  </script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found — The Backlog</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,500&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+  <div class="wrap">
+    <a class="brand" href="/">
+      <span class="brand-mark">THE BACK<span>LOG</span></span>
+      <span class="brand-tag">Pile of shame, reviewed</span>
+    </a>
+    <div class="header-right">
+      <div class="search-wrap">
+        <button class="search-toggle" id="searchToggle" type="button" aria-expanded="false" aria-controls="searchPanel" aria-label="Search reviews">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1.6"/><line x1="12.2" y1="12.2" x2="16.5" y2="16.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        </button>
+        <div class="search-panel" id="searchPanel" hidden>
+          <input type="search" id="searchInput" class="search-input" placeholder="Search a game&hellip;" aria-label="Search reviews" autocomplete="off">
+          <ul class="search-results" id="searchResults"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="notfound">
+    <div class="wrap">
+      <div class="stamp tone-low" role="img" aria-label="Score: 0 percent, Not Found">
+        <span class="pct">0%</span>
+        <span class="tier">Not Found</span>
+      </div>
+      <h1>This Page Whiffed It</h1>
+      <p>Whatever you were looking for isn't here. It joins a long, proud list of things that didn't show up — right next to that game you swore you'd finish.</p>
+      <a class="btn btn-primary" href="/">Back To The Shelf →</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span>&copy; 2026 The Backlog. Currently unsponsored, so we're saying what we actually think.</span>
+    <a href="/">Home</a>
+  </div>
+</footer>
+
+<script src="/script.js" defer></script>
+</body>
+</html>
