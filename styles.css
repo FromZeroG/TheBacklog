@@ -902,6 +902,46 @@
   }
   .review-sources li{ margin-top: 0.35rem; }
 
+  .similar-games{
+    margin-top: clamp(2.5rem, 5vw, 3.5rem);
+    padding-top: 1.5rem;
+    border-top: 1px dashed var(--line);
+  }
+  .similar-games .eyebrow{ margin-bottom: 1rem; }
+  .similar-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+    gap: 0.7rem;
+  }
+  .similar-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.7rem 0.9rem;
+    background: var(--bg-raised);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    text-decoration: none;
+    transition: border-color 0.15s ease, transform 0.15s ease;
+  }
+  .similar-link:hover{ border-color: var(--accent); transform: translateY(-1px); }
+  .similar-link .similar-title{
+    font-size: 0.86rem;
+    color: var(--ink);
+    line-height: 1.25;
+  }
+  .similar-link .similar-pct{
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    font-weight: 600;
+    flex: none;
+  }
+  .similar-pct.tone-over{ color: var(--stamp-over); }
+  .similar-pct.tone-high{ color: var(--stamp-high); }
+  .similar-pct.tone-mid{ color: var(--stamp-mid); }
+  .similar-pct.tone-low{ color: var(--stamp-low); }
+
   .review-nav{
     border-top: 1px solid var(--line-soft);
     background: var(--bg-inset);
